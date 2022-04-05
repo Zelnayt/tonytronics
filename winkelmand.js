@@ -1,12 +1,7 @@
-//when you click on a product, the price is added to the total
-function addToCart(id) {
-    var price = document.getElementById(id).getAttribute("price");
-    var total = document.getElementById("total");
-    total.innerHTML = parseInt(total.innerHTML) + parseInt(price);
-}
+let prijs = 0;
 
-//make the div with the id "product" clickable
-document.getElementById("product").addEventListener("click", function(e) {
-    addToCart(e.target.id);
+function addToCart(price)
+{
+    prijs +=  price;
+    document.getElementById('winkel').innerHTML = 'Winkelmand(' + prijs + ')';
 }
-);
