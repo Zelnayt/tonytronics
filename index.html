@@ -13,7 +13,7 @@
         <header>
             <img alt="logo" src="images/logo_tonytronics.png">
             <input type="text" placeholder="Zoeken naar ...">
-            <span><a href="#">Winkelmand (0)</a></span>
+            <span id="winkel"><a href="#" >Winkelmand(0)</a></span>
             <nav>
                 <a href="#">NIEUWE PRODUCTEN</a>
                 <a href="#">MEEST VERKOCHT</a>
@@ -42,63 +42,63 @@
         <!--De opties zijn microbit, arduino, raspberrypi-->
         <main>
             <script src="winkelmand.js"></script>
-            <div id="merkA" class="microbit">
+            <div id="product" onclick="addToCart(8,99)">
                 <img src="images/producten/product_1.jpg">
                 <h5>Steve</h5>
                 <p>€ <span id="prijs1">8</span>,99</p>
             </div>
-            <div id="merkA" class="microbit">
+            <div id="product" onclick="addToCart(19,99)">
                 <img src="images/producten/product_2.jpg">
                 <h5>Ben</h5>
                 <p>€ <span id="prijs1">19</span>,99</p>
             </div>
-            <div id="merkA" class="microbit">
+            <div id="product" onclick="addToCart(3,99)">
                 <img src="images/producten/product_3.jpg">
                 <h5>Kevin</h5>
                 <p>€ <span id="prijs1">3</span>,99</p>
             </div>
-            <div id="merkA" class="microbit">
+            <div id="product" onclick="addToCart(445,99)">
                 <img src="images/producten/product_4.jpg">
                 <h5>Bruce</h5>
                 <p>€ <span id="prijs3">445</span>,99</p>
             </div>
-            <div id="merkA" class="microbit">
+            <div id="product" onclick="addToCart(119,99)">
                 <img src="images/producten/product_5.jpg">
                 <h5>Jamal</h5>
                 <p>€ <span id="prijs3">119</span>,99</p>
             </div>
-            <div id="merkA" class="microbit">
+            <div id="product" onclick="addToCart(329,99)">
                 <img src="images/producten/product_6.jpg">
                 <h5>Kanye</h5>
                 <p>€ <span id="prijs3">329</span>,99</p>
             </div>
-            <div id="merkA" class="microbit">
+            <div id="product" onclick="addToCart(2,99)">
                 <img src="images/producten/product_7.jpg">
                 <h5>Opera</h5>
-                <p>€ <span id="prijs1">2</span>,99</p>
-            </div>
-            <div id="merkA" class="microbit">
+                <p>€ 2,99</p>
+            </div> 
+            <div id="product">
                 <img src="images/producten/product_8.jpg">
                 <h5>Tyrone</h5>
                 <p>€ <span id="prijs2">89</span>,99</p>
             </div>
-            <div id="merkA" class="microbit">
+            <div id="product" onclick="addToCart(39,99)">
                 <img src="images/producten/product_9.jpg">
                 <h5>Job</h5>
                 <p>€ <span id="prijs1">39</span>,99</p>
             </div>  
             
-            <div style="min-height: 322px;" id="merkA" class="microbit">
+            <div style="min-height: 322px;" onclick="addToCart(499,99)">
                 <img src="images/producten/hond.jpg" style="height: 216px;">
                 <h5>Tony</h5>
                 <p>€ <span id="prijs3">499</span>,99</p>
             </div> 
-            <div style="min-height: 322px;" id="merkA" class="microbit">
+            <div style="min-height: 322px;" onclick="addToCart(99,99)">
                 <img src="images/producten/tandenborstel.png">
                 <h5>Elektronische tandenborstel</h5>
                 <p>€ <span id="prijs2">99</span>,99</p>
             </div> 
-            <div style="min-height: 322px;" id="merkA" class="microbit">
+            <div style="min-height: 322px;" onclick="addToCart(39,99)">
                 <img src="images/producten/bril.png" style="height: 216px;">
                 <h5>Eleketrische verrekijker</h5>
                 <p>€ <span id="prijs1">39</span>,99</p>
