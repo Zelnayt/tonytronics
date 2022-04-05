@@ -5,12 +5,46 @@ header img
     box-sizing: border-box;
 }
 
+.box
+{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box a:hover
+{
+    color: #0a58ca;
+}
+
+.box a
+{
+    color: white;
+    text-decoration: none;
+}
+
 header input
 {
     position: absolute;
     width: 450px;
     left: calc(50% - 225px);
     top: 1.5em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    outline: none;
+}
+
+header input:focus
+{
+    border: 1px solid #0a58ca;
+    box-shadow: 0 0 10px lightblue;
 }
 
 header span
